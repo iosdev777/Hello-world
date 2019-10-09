@@ -20,7 +20,7 @@
 int main()
 {
   FILE *fp;
-  fp=fopen("indent.txt","r");
+  fp=fopen("indents.txt","r");
   yyin=fp;
   yylex();
   printf("Maximum indentation is = %d\n",glob);
